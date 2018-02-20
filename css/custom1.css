@@ -1,0 +1,59 @@
+
+.main._md.md-primoExplore-theme.layout-align-center-start.layout-row.flex {
+    flex-flow: row nowrap;
+}
+/*Aktiver denne hvis fasettene er på høyre side og du ønsker dem på venstre side*/
+/*
+.main._md.md-primoExplore-theme.layout-align-center-start.layout-row.flex.padded-container {
+   display: -webkit-flex; !* Safari *!
+    -webkit-flex-flow: row-reverse wrap; !* Safari 6.1+ *!
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+*/
+
+/*Aktiver denne hvis fasettene er på venstre side og du ønsker dem på høyre side*/
+/*
+.main._md.md-primoExplore-theme.layout-align-center-start.layout-row.flex.padded-container {
+   display: -webkit-flex; !* Safari *!
+    -webkit-flex-flow: row-reverse wrap; !* Safari 6.1+ *!
+    display: flex;
+    flex-flow: row wrap;
+}
+*/
+
+/*Endrer farge på toppbanneret (der logoen er)*/
+.prm-primary-bg.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark::after, prm-topbar .top-nav-bar, prm-search-bar.prm-hue1 {
+  /* background-color: #3cb371; */ 
+}
+
+/*Endrer fargen på feltet bak søkefeltet*/
+.prm-primary-bg, prm-spinner.overlay-cover.light-on-dark::after, prm-search-bar {
+  /* background-color: #3cb371; */ 
+}
+
+/*Endrer bakgrunnsfargen på feltet under søkefeltet*/
+md-content, md-content.md-primoExplore-theme {
+  /* background-color: #3cb371; */
+}
+
+/*Endrer fargen på tittel i trefflisten og detaljert visning*/
+prm-brief-result .item-title {
+  /* color: #2e8b57; */
+}
+
+/*Endrer bakgrunnsfarge på antall treff i trefflisten*/
+prm-search-result-list .results-title.layout-row {
+  /* background-color: #2e8b57; */
+}
+
+/*Endrer fargen og skillelinje på postene i trefflisten*/
+prm-search-result-list md-list-item {
+  /* border-bottom: #000000; */
+  /* background-color: #e2e2e2; */
+}
+
+/*Endrer bakgrunnsfargen på trefflisten ved innlastning av nye/flere poster*/
+#mainResults {
+  /* background-color: #e2e2e2;*/
+}
