@@ -57,3 +57,16 @@ prm-search-result-list md-list-item {
 #mainResults {
   /* background-color: #e2e2e2;*/
 }
+
+/*Ta bort <br/> i treffliste */
+span.media-delimiter {
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+/*Ta bort Siter i Send Til*/
+.md-nav-item:nth-child(2) {
+    display: none;
+}  
