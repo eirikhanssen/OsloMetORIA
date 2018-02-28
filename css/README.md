@@ -1,5 +1,5 @@
 # The Primo New UI Customization Workflow Development Environment
-## OsloMet's instance files.
+## OsloMet's instance files for new oria interface.
 
 ##css documentation
 
